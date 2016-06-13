@@ -58,7 +58,7 @@ public class Duck {
 	}
 	
 	public void display(){
-		System.out.println("Duck Name is " + this.getId());
+		System.out.println("Duck Name is " + this.getDuckType());
 	}
 
 }
