@@ -5,11 +5,18 @@ public class Runner {
 		
 		MallardDuck mDuck = new MallardDuck();
 		mDuck.display();
+		mDuck.fly();
 		
 		
 		
 		RubberDuck rDuck = new RubberDuck();
 		rDuck.quack();
+		rDuck.fly();
+		
+		
+		RedHeadDuck rhDuck = new RedHeadDuck();
+		rhDuck.display();
+		
 	}
 
 }
