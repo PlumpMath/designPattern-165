@@ -2,18 +2,14 @@ package introDuck;
 
 public class DecoyDuck extends Duck{
 	
-	
-
-	
-	@Override
-	public void quack(){
-		// do nothing because decoy duck is not alive
+	public DecoyDuck() {
+		quackBehavior = new MuteQuack();
+		flyBehavior = new FlyNoWay();
+		
 	}
 	
-	@Override
-	public void fly() {
-		// do nothing because decoy duck is not alive
-	}
+	
+	
 	
 	@Override
 	public void display() {

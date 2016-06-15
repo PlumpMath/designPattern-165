@@ -4,7 +4,7 @@ public class FlyNoWay implements FlyBehavior{
 
 	@Override
 	public void fly() {
-		//do nothing, duck cannot fly
+		System.out.println("I cant fly :( ");
 		
 	}
 

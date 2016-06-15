@@ -3,6 +3,8 @@ package introDuck;
 public class MallardDuck extends Duck{
 	
 	public MallardDuck() {
+		flyBehavior = new FlyWithWings();
+		quackBehavior = new Quack();
 		this.setRealDuck(true);
 	}
 	

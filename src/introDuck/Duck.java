@@ -7,6 +7,8 @@ public class Duck {
 	private String duckDescription;
 	private boolean isRealDuck;
 	
+	QuackBehavior quackBehavior;
+	FlyBehavior flyBehavior;
 	
 	
 	public Duck() {
@@ -45,20 +47,32 @@ public class Duck {
 		this.isRealDuck = isRealDuck;
 	}
 	
-	public void quack(){
-		System.out.println("Quack Quack");
+	public void display(){
+		System.out.println("Duck Name is " + this.getDuckType());
 	}
 	
 	public void swim(){
 		System.out.println("//The duck is swimming !");
 	}
 	
-	public void fly(){
-		System.out.println("//The duck is flying !");
+	public void performFly(){
+		flyBehavior.fly();
 	}
 	
-	public void display(){
-		System.out.println("Duck Name is " + this.getDuckType());
+	public void performQuack(){
+		quackBehavior.quack();
 	}
+
+	public void setQuackBehavior(QuackBehavior qb) {
+		quackBehavior = qb;
+	}
+
+	public void setFlyBehavior(FlyBehavior fb) {
+		flyBehavior = fb;
+	}
+	
+	
+	
+
 
 }
