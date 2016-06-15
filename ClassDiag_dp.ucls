@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="introDuck.Duck" project="designPattern" 
-    file="/designPattern/src/introDuck/Duck.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="strategyPattern.Duck" project="designPattern" 
+    file="/designPattern/src/strategyPattern/Duck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="385" width="175" x="25" y="-9"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="introDuck.MallardDuck" project="designPattern" 
-    file="/designPattern/src/introDuck/MallardDuck.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="strategyPattern.MallardDuck" project="designPattern" 
+    file="/designPattern/src/strategyPattern/MallardDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="359" y="182"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="introDuck.RedHeadDuck" project="designPattern" 
-    file="/designPattern/src/introDuck/RedHeadDuck.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="strategyPattern.RedHeadDuck" project="designPattern" 
+    file="/designPattern/src/strategyPattern/RedHeadDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="361" y="287"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="introDuck.RubberDuck" project="designPattern" 
-    file="/designPattern/src/introDuck/RubberDuck.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="strategyPattern.RubberDuck" project="designPattern" 
+    file="/designPattern/src/strategyPattern/RubberDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="362" y="53"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="introDuck.Runner" project="designPattern" 
-    file="/designPattern/src/introDuck/Runner.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="strategyPattern.Runner" project="designPattern" 
+    file="/designPattern/src/strategyPattern/Runner.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="87" y="456"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="introDuck.DecoyDuck" project="designPattern" 
-    file="/designPattern/src/introDuck/DecoyDuck.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="strategyPattern.DecoyDuck" project="designPattern" 
+    file="/designPattern/src/strategyPattern/DecoyDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="355" y="417"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="7" language="java" name="introDuck.FlyBehavior" project="designPattern" 
-    file="/designPattern/src/introDuck/FlyBehavior.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="7" language="java" name="strategyPattern.FlyBehavior" project="designPattern" 
+    file="/designPattern/src/strategyPattern/FlyBehavior.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="554" y="147"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -64,8 +64,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="8" language="java" name="introDuck.FlyNoWay" project="designPattern" 
-    file="/designPattern/src/introDuck/FlyNoWay.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="strategyPattern.FlyNoWay" project="designPattern" 
+    file="/designPattern/src/strategyPattern/FlyNoWay.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="650" y="266"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -73,8 +73,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="introDuck.FlyWithWings" project="designPattern" 
-    file="/designPattern/src/introDuck/FlyWithWings.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="9" language="java" name="strategyPattern.FlyWithWings" project="designPattern" 
+    file="/designPattern/src/strategyPattern/FlyWithWings.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="546" y="270"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

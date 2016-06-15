@@ -1,4 +1,4 @@
-package introDuck;
+package duckBehaviors;
 
 public class FlyNoWay implements FlyBehavior{
 

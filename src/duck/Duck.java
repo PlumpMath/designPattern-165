@@ -1,4 +1,7 @@
-package introDuck;
+package duck;
+
+import duckBehaviors.FlyBehavior;
+import duckBehaviors.QuackBehavior;
 
 public class Duck {
 	

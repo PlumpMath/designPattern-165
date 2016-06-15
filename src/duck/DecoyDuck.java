@@ -1,4 +1,6 @@
-package introDuck;
+package duck;
+
+import duckBehaviors.FlyNoWay;
 
 public class DecoyDuck extends Duck{
 	

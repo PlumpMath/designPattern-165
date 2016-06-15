@@ -1,4 +1,6 @@
-package introDuck;
+package duck;
+
+import duckBehaviors.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior{
 
