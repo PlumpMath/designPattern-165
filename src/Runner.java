@@ -1,4 +1,8 @@
-import duck.*;
+
+
+import duck.Duck;
+import duck.MallardDuck;
+import duck.ModelDuck;
 import duckBehaviors.FlyRocketPowered;
 
 public class Runner {
